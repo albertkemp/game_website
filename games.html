@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.featured-games ul,
+.latest-news ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.featured-games li,
+.latest-news li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.featured-games h3,
+.latest-news h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.featured-games img,
+.latest-news img {
+}
+    </style>
+    <title>Melbourne Games - Games</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Melbourne Games</h1>
+      <nav>
+        <ul>
+          <li><a href="gamewebsiteGPT.html">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="featured-games">
+        <h2>Featured Games</h2>
+        <ul>
+          <li>
+            <a href="snakegame.html">
+              <img src="images/Screen Shot 2023-02-23 at 7.45.33 pm.png" alt="Snake" height="400px">
+              <h3>Snake</h3>
+            </a>
+          </li>
+          <li>
+            <a href="simulatororiginal.html">
+              <img src="images/simulator.png" alt="Flight Sim" height="400px">
+              <h3>Flight Simulator</h3>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 Melbourne Games</p>
+    </footer>
+  </body>
+</html>
