@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
+    <link rel="shorcut icon" href="images/melbournegames.png">
+    <style>    
         body {
   font-family: Arial, sans-serif;
   background-color: #f1f1f1;
@@ -30,12 +31,12 @@ nav li {
   margin-left: 20px;
 }
 
-nav a {
+.nava {
   color: white;
   text-decoration: none;
 }
 
-nav a:hover {
+.nava:hover {
   text-decoration: underline;
 }
 
@@ -46,14 +47,29 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+.logo {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  background-color: #ffcc00;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  float: left;
+}
 section {
   background-color: white;
   padding: 20px;
-  margin-bottom
+  margin-bottom: 20px;
+  border: 2px solid #333;
+  border-radius: 5px;
 }
     </style>
-    <title>My Game Website</title>
+    <title>Melbourne Games - Home</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -61,9 +77,9 @@ section {
       <h1>Melbourne Games</h1>
       <nav>
         <ul>
-          <li><a href="gamewebsiteGPT.html">Home</a></li>
-          <li><a href="games.html">Games</a></li>
-          <li><a href="news.html">News</a></li>
+          <li><a class="nava" href="gamewebsiteGPT.html">Home</a></li>
+          <li><a class="nava" href="games.html">Games</a></li>
+          <li><a class="nava" href="news.html">News</a></li>
         </ul>
       </nav>
     </header>
@@ -72,45 +88,45 @@ section {
       <section class="featured-games">
         <h2>Featured Games</h2>
         <ul>
-          <li>
             <a href="snakegame.html">
               <img src="images/Screen Shot 2023-02-23 at 7.45.33 pm.png" alt="Snake" height="400px">
-              <h3>Snake</h3>
-            </a>
-          </li>
-          <li>
+            </a><h3>Snake</h3>
+            <a href="snakegame.html">Play now</a>
+            <br>
+            <br>
+            <br>
             <a href="simulatororiginal.html">
               <img src="images/simulator.png" alt="Flight Sim" height="400px">
-              <h3>Flight Simulator</h3>
             </a>
-          </li>
+            <h3>Flight Simulator</h3>
+            <a href="simulatororiginal.html">Play now</a>
         </ul>
       </section>
       
       <section class="latest-news">
         <h2>Latest News</h2>
         <ul>
-          <li>
-            <a href="#">
+          
+            <a href="snakegame.html">
               <img src="images/Screen Shot 2023-02-23 at 7.45.33 pm.png" alt="News 1" height="300px">
               <h3>Snake Game created</h3>
               <p>We now have a very fun to play Snake Game for everyone to play!</p>
             </a>
-          </li>
-          <li>
-            <a href="#">
+          
+          
+            <a href="simulatororiginal.html">
               <img src="images/simulator.png" alt="News 2" height="300px">
               <h3>Flight Simulator</h3>
               <p>With Great new options of a landed plane or a flying one, we have a greatly designed flight simulator.</p>
             </a>
-          </li>
-          <li>
+          
+          
             <a href="#">
-              <img src="news3.jpg" alt="News 3">
+              <img src="images/oliversim.png" alt="News 3" height="300px">
               <h3>Scratch Simulator</h3>
               <p>Oliver King's new flight simulator! Made in Scratch, it has options where you can tilt up the plane and down, throttle and undercarriage. Even more features now, and we will notify when you can play it.</p>
             </a>
-          </li>
+          
         </ul>
       </section>
     </main>
